@@ -4,10 +4,26 @@ using UnityEngine;
 
 public class Consigna_helado : MonoBehaviour
 {
+    public int cantidad;
+    public string sabor;
+    int precio;
     // Start is called before the first frame update
     void Start()
     {
-        
+
+        if (cantidad > 250 || cantidad <3000)
+        {
+            Debug.Log("Error, las cantidades no son validas ");
+        }
+        if (cantidad == 250)
+        {
+
+        }
+        else if (sabor == "FRU")
+        {
+            Debug.Log("El precio es de" + precio*0.10);
+        }
+
     }
 
     // Update is called once per frame

@@ -292,6 +292,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ca4e624521653b44b3fa9dba7bd3cf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  edad: 0
+  altura: 0
 --- !u!4 &821854688
 Transform:
   m_ObjectHideFlags: 0
@@ -315,8 +317,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1022517954}
+  - component: {fileID: 1022517955}
   m_Layer: 0
-  m_Name: Consigna
+  m_Name: Consigna_Helado
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -336,3 +339,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1022517955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022517953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9b54dc42628444468d594435ce319c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cantidad: 0
+  sabor: 

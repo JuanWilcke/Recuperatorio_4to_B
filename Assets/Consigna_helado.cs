@@ -10,14 +10,14 @@ public class Consigna_helado : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        precio = cantidad%2;
         if (cantidad > 250 || cantidad <3000)
         {
             Debug.Log("Error, las cantidades no son validas ");
         }
-        if (cantidad == 250)
+        if (cantidad <= 250 || cantidad >= 3000 && sabor == "CHO" && sabor == "DDL")
         {
-
+            Debug.Log("El precio es de " + precio);
         }
         else if (sabor == "FRU")
         {
